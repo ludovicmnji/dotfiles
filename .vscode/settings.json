@@ -1,0 +1,69 @@
+{
+  // Themes
+  "workbench.colorTheme": "Oceanic Next",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Oceanic Next]": {
+      "editor.background": "#282c35"
+    }
+  },
+  "material-icon-theme.activeIconPack": "react_redux",
+  "editor.fontFamily": "'Dank Mono'",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "editor.insertSpaces": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.scrollBeyondLastLine": false,
+  "editor.minimap.enabled": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // Hide Open Editors pane
+  "explorer.openEditors.visible": 0,
+  // Disable Preview when using Quick Open
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  // `.snap` files (Jest snapshots) should use JSX mode by default
+  "files.associations": {
+    "*.snap": "javascriptreact"
+  },
+  // Exclusions from the explorer
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  // Prettier & ESLint
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": false,
+  "editor.formatOnSave": false,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+  // Jest
+  "jest.showCoverageOnLoad": true,
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  // Sync setup
+  "sync.gist": "5db641f8f71cd1e7bd4a295b82caeb5d",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  // ImportCost personnalization
+  // "importCost.smallPackageColor": "#1a8c59",
+  "importCost.smallPackageColor": "#666666",
+  "importCost.mediumPackageColor": "#d1b72b",
+  "importCost.largePackageColor": "#c12413",
+}
